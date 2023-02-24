@@ -1,9 +1,9 @@
 version: "3.9"
 services:
      shellbot:
-     image: diegor2/shellbot
-      container_name: shellbot
-      environment:
-      - BOT_TOKEN=${BOT_TOKEN}
-      - BOT_USERID=${BOT_USERID}
-       restart: unless-stopped
+        image: diegor2/shellbot
+        container_name: shellbot
+        environment:
+          - BOT_TOKEN=${BOT_TOKEN}
+          - BOT_USERID=${BOT_USERID}
+        restart: unless-stopped
