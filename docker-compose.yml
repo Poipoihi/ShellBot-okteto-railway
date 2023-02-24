@@ -1,6 +1,5 @@
 version: "3.9"
-           
- services:
+services:
      shellbot:
      image: diegor2/shellbot
       container_name: shellbot
